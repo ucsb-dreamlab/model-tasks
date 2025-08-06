@@ -19,10 +19,3 @@ ENV PATH $NVM_DIR/versions/node/v22.17.0/bin:$PATH
 
 # Install Claude CLI
 RUN curl -fsSL https://claude.ai/install.sh | bash
-
-# Switch to non-root user
-USER rstudio
-WORKDIR /home/rstudio
-
-# Expose port for RStudio
-EXPOSE 8787
