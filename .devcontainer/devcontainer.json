@@ -1,0 +1,6 @@
+{
+  "name": "R, Gemini, and Claude Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  }
+}
